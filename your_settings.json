@@ -1,0 +1,23 @@
+{
+    "token": "",
+    "prefix": "!",
+    "rainbowdelay": 2000,
+    "rainbowcommand": "rainbo",
+    "rainbowstop": "stop",
+    "rainbowrole": [
+        "#00FF00",
+        "#DF0101",
+        "#0404B4",
+        "#DF01D7",
+        "#000001",
+        "#FFFF00",
+        "#FF4000",
+        "#FF0040"
+    ],
+    "messageresponse": {
+        "missingperm": "I need permission 'MANAGE_ROLES' to execute this action.",
+        "success": "Запустил радугу",
+        "rainbowstop": "Остановил радугу",
+        "rolenotfound": "The requested role you typed was not found"
+    }
+}
