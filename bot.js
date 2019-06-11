@@ -1,12 +1,10 @@
 const Discord = require("discord.js") 
 const settings = require("./your_settings.json")
 const bot = new Discord.Client()
-
-client.login(process.env.BOT_TOKEN);
-
 bot.on('ready', async => {
 console.log("Rainbow bot is ready!" + "\n" + bot.user.tag + "\n" + "Server Count: "  + bot.guilds.size + "\n" + "Cached users: " + bot.users.size + "\n" + "Enjoy!")
 });
+client.login(process.env.BOT_TOKEN);
 bot.on('message', message => {
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
